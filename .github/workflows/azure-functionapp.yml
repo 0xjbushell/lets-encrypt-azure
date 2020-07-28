@@ -1,11 +1,11 @@
-# trigger deploy
+
 on:
   push:
     branches:
       - master
 
 env:
-  ResourceGroup: lab-expl-foundation-rg
+  ResourceGroup: prod-explore-dot-sh-letsencrypt
 jobs:
   build:
     runs-on: ubuntu-latest
